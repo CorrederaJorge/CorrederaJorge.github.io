@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
 
-  {% include head.html %}
+<body id="page">
 
-  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+{% include browser-upgrade.html %}
+{% include header.html %}
 
-    <div class="wrapper">
-
-      <header class="page-header">
-
-        <!-- You can turn off the avatar in _config.yml by setting to false -->
-        {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar">
-        {% endif %}
-
-        <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name">{{ site.resume_name }}</h1>
+<div id="main" role="main">
+   <img src="images/avatar.jpg" alt="my photo" class="avatar">
+  <article class="hentry">
+    <div class="entry-content">
+         <h1 class="header-name">{{ site.resume_name }}</h1>
 
         <div class="title-bar">
 
@@ -29,17 +30,11 @@
         <div class="executive-summary">
           <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
         </div>
-
-        {% if site.resume_looking_for_work == 'yes' %}
         <a href="mailto:{{ site.resume_contact_email }}" class="contact-button">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
 
       </header>
 
-      {% if site.resume_section_experience %}
+
       <!-- begin Experience -->
       <section class="content-section">
 
@@ -79,9 +74,9 @@
 
       </section>
       <!-- end Experience -->
-      {% endif %}
+ 
 
-      {% if site.resume_section_education %}
+
       <!-- begin Education -->
       <section class="content-section">
 
@@ -97,9 +92,9 @@
 
       </section>
       <!-- end Education -->
-      {% endif %}
+    
 
-      {% if site.resume_section_projects %}
+
       <!-- begin Projects -->
       <section class="content-section">
 
@@ -121,9 +116,9 @@
 
       </section>
       <!-- end Projects -->
-      {% endif %}
 
-      {% if site.resume_section_skills %}
+
+
       <!-- begin Skills -->
       <section class="content-section">
 
@@ -148,9 +143,9 @@
 
       </section>
       <!-- end Skills -->
-      {% endif %}
 
-      {% if site.resume_section_recognition %}
+
+
       <!-- begin Recognition -->
       <section class="content-section">
 
@@ -178,9 +173,9 @@
 
       </section>
       <!-- end Recognition -->
-      {% endif %}
 
-      {% if site.resume_section_associations %}
+
+
       <!-- begin Associations -->
       <section class="content-section">
 
@@ -202,9 +197,9 @@
 
       </section>
       <!-- end Associations -->
-      {% endif %}
 
-      {% if site.resume_section_links %}
+
+
       <!-- begin Links -->
       <section class="content-section">
 
@@ -219,17 +214,25 @@
           </ul>
         </div>
 
-      </section>
-      <!-- end Links -->
-      {% endif %}
+      </section>- end Links -->
 
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+      <footer class="entry-meta">
+        {% if page.modified %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
+        <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>{% endif %}
+        {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
+    </div><!-- /.entry-content -->
+    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+  </article>
+</div><!-- /#main -->
 
-    </div>
+{% include scripts.html %}
 
-  </body>
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
 
+</body>
 </html>
