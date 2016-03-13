@@ -1,5 +1,5 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            CorrederaJorge
+description:      Personal blog about robot development.
 # put your disqus here
 disqus_shortname: 
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -19,7 +19,7 @@ menu:
     url: '/'
   - title: 'Fork'
     url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
+  - title: 'About Me'
     url: '/theme-setup/'
   - title: 'Tags'
     url: '/tags'
@@ -36,15 +36,15 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
+  name:           Jorge Corredera
   site:           http://CorrederaJorge.github.io
   avatar:         images/avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          you@email.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: CorrederaJorge # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: CorrederaJorge
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -53,7 +53,7 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/CorrederaJorge"
   - title: "linkedin"
     url: "https://br.linkedin.com/in/aronbordin"
   - title: "youtube"
