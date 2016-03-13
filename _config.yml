@@ -17,8 +17,6 @@ logo:             images/logo.png # logo visible in the topbar
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
   - title: 'About Me'
     url: '/theme-setup/'
   - title: 'Tags'
