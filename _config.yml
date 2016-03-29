@@ -21,9 +21,6 @@ menu:
     url: '/about'
   - title: 'Tags'
     url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
 
 # Owner/author information
 owner:
