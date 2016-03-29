@@ -1,8 +1,13 @@
 // Typography
 // --------------------------------------------------
 
+@font-face {
+    font-family: 'HandWritten'; /*a name to be used later*/
+    src: url('http://correderajorge.github.io/font/GOODDP__.TTF'); /*URL to font*/
+}
+
 $base-font: 'Lato', Calibri, Arial, sans-serif;
-$heading-font: $base-font;
+$heading-font: 'HandWritten';
 $caption-font: $base-font;
 $code-font: monospace;
 $alt-font: serif;
