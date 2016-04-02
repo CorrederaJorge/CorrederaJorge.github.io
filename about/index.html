@@ -28,9 +28,17 @@ If you want to CONTACT ME I am always waiting your mail.
 About Copyright issues you can have a look to the post I wrote some time ago. However as a shortcut read it. 
 </p>
   <form action="https://getsimpleform.com/messages?form_api_token=15fe6768f13de163f8cbd2b34450efe4" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-  <!-- all your input fields here.... -->
-  <input type='text' name='test' />
-  <input type='submit' value='Test form' />
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send" />
 </form>
