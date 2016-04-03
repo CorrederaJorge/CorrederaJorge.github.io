@@ -4,6 +4,8 @@ layout: post
 description: Copyrights
 modified: {}
 title: Uncopyright
+image: 
+  feature: uncopyright.png
 ---
 
 After reading <a href="http://zenhabits.net/uncopyright/" target="_blank">Leo post about uncopyrigth </a> I started thinking about it. Finally, I decided I should do something like this.
