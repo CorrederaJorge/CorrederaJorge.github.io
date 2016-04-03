@@ -34,8 +34,8 @@ comments: false
   </header>
   <div class="entry-content">
     {% if post.content contains "<!-- more -->" %}
-      <a class ="btn btn-success" href="{{ site.url }}{{ post.url }}">Read More</a>
     {{ post.content | split:"<!-- more -->" | first % }}
+      <a class ="btn btn-success" href="{{ site.url }}{{ post.url }}">Read More</a>
     {% else %}
       {{ post.content }}
     {% endif %}
