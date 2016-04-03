@@ -9,6 +9,7 @@ image:
 ---
 
 
+
 After reading <a href="http://zenhabits.net/uncopyright/" target="_blank">Leo post about uncopyrigth </a> I started thinking about it. Finally, I decided I should do something like this.
 
 <center><a><img class="alignnone" src="http://open.commonly.cc/bundle/img/uncopyrighted.png" alt="" width="638" height="285" /></a></center>I want to use a license that let everybody use my work. On one hand the small posts I have written are a very little work compared with the work other people have done to create the tools I am using today. On the other hand it is better for me people use and improve the work I have done. Attribution is appreciated but not required.
