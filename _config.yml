@@ -1,5 +1,5 @@
 title:            CorrederaJorge
-description:      Personal blog about robot development.
+description:      Jorge Corredera personal blog about robot and technology development.
 # put your disqus here
 disqus_shortname: 
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -27,7 +27,7 @@ owner:
   name:           Jorge Corredera
   site:           http://CorrederaJorge.github.io
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "I am a Spanish telecommunication engineer.I like social robotics, computers and almost everything with wires. Right now, I am working as a Software Engineer. Furthermore I am always happy to be involved in challenging projects."
   email:          correderajorge+CorrederaJorge.github.io@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: CorrederaJorge # if no twitter in this config, the twitter follow button will be removed
