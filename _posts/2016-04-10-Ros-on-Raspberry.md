@@ -14,7 +14,7 @@ title: Installing Ros on Raspberry Pi
 After playing a bit with Ros I discovered a really easy way to install Ros Hydro in Raspbian thanks to the guys of Ros Sig Embedded. They released a repo that you only have to add and install from it. Really easy. Let's see how.
 
 <center> <img src="/images/rosHydro.png" alt="rosHydro" width="280" height="300" /></center>
-<!--more-->
+<!-- more -->
 
 <h2>1) Installation</h2>
 First of all you have to add the repos to your repo list:
