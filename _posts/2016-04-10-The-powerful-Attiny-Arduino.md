@@ -7,8 +7,9 @@ tags:
   - arduino
 categories: 
   - intro
-title: "The powerful Attiny Arduino"
+title: The powerful Attiny Arduino
 ---
+
 
 It was by chance I discovered Attiny Arduino devices. Due to the prize and size of the device could be a really powerful discovery for small and low-cost projects. But this is not an Arduino like the others, it is a small one so it could be a bit difficult to use the first time. So let's see what can we do with that.
 
@@ -16,11 +17,12 @@ It was by chance I discovered Attiny Arduino devices. Due to the prize and size 
 
 <h3>Programming process</h3>
 In order to program this device it is necessary to use another Arduino. In this case I will use an Arduino Leonardo. It will be used as a ISP (In system programmer) programmer. The steps to follow:
-1) Install Arduino Leonardo
-2) Configure Arduino as a ISP programmer.
-3) Add Attiny libraries to Arduino IDE.
-4) Wire Attiny with Arduino Leonardo ISP.
-5) Programm Attiny.
+1. Install Arduino Leonardo
+2. Configure Arduino as a ISP programmer.
+3. Add Attiny libraries to Arduino IDE.
+4. Wire Attiny with Arduino Leonardo ISP.
+5. Programm Attiny.
+
 <h3>1) Install Arduino Leonardo</h3>
 It is possible to install Arduino IDE in Linux, Mac and Windows. In this case I would choose Windows because for me it has been impossible to install under Linux. It is one thing I should have a look.
 <h4>1.a) Windows</h4>
