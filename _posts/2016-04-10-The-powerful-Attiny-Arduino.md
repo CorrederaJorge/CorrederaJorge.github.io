@@ -185,7 +185,8 @@ void loop() {
   delay(1000);               // wait for a second
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);               // wait for a second
-}{% endhighlight %}
+}
+{% endhighlight %}
 Select "Tools", "Programmer" and "Arduino as ISP (leonardo)" and choose Attiny13 in "Tools", "Board" , "Attiny13@...". Finally add a led to the 0 pin in this case and upload the file to the Arduino Attiny13.
 <h3>6) Where to go from here</h3>
 Now I am ready to create a <a href="http://guillermoamaral.com/read/rpi-pwrbtn-pcb-r1/" target="_blank">touch button</a> to switch on and off the Raspberry pi.
