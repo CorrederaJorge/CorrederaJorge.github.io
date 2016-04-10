@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-description: The beginning
+description: How to programm Attiny using Arduino
 modified: {}
 tags: 
   - arduino
@@ -11,6 +11,7 @@ title: "The powerful Attiny Arduino"
 ---
 
 It was by chance I discovered Attiny Arduino devices. Due to the prize and size of the device could be a really powerful discovery for small and low-cost projects. But this is not an Arduino like the others, it is a small one so it could be a bit difficult to use the first time. So let's see what can we do with that.
+
 <!-- more -->
 
 <h3>Programming process</h3>
