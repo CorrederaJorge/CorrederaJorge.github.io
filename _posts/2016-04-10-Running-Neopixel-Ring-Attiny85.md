@@ -1,6 +1,14 @@
 ---
-published: false
+published: true
+layout: post
+tags: 
+  - Arduinio
+  - NeoPixel
+description: Running NeoPixel with Attiny
+modified: {}
+title: Running Neopixel Ring with Attiny85
 ---
+
 
 I don't usually advertise anything from private companies but I really like <a href="http://www.adafruit.com/products/1463#Distributors" target="_blank">Neopixel Ring</a>. It is a bit expensive if you compare it with isolated rgb leds however you have to take in account they are really tiny and that could be a problem.
 
