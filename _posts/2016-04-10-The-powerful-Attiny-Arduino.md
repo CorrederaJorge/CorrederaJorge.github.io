@@ -13,6 +13,8 @@ title: The powerful Attiny Arduino
 
 It was by chance I discovered Attiny Arduino devices. Due to the prize and size of the device could be a really powerful discovery for small and low-cost projects. But this is not an Arduino like the others, it is a small one so it could be a bit difficult to use the first time. So let's see what can we do with that.
 
+<center><img class="alignnone" src="images/ArduinoLogo.png" alt="" width="638" height="285" /></center>
+
 <!-- more -->
 
 <h3>Programming process</h3>
@@ -49,7 +51,6 @@ arduinoispleo.protocol=arduino
 arduinoispleo.speed=19200
 {% endhighlight %}
 
-</div>
 <h3>3) Add Attiny libraries to Arduino IDE</h3>
 Arduino doesn't support Attiny by default so it is necessary to add some libraries. First of all download the libraries <a href="http://sourceforge.net/projects/ard-core13/" target="_blank">smeezekittyÔÇÖs core13</a> and for Attiny 45 here in case you want to install both just download this file <a href="http://www.correderajorge.es/wp-content/uploads/2013/10/attiny13_45_85-.zip" target="_blank">Attiny_15_45_85</a>. Copy this libraries inside /windows/Program Files (x86)/Arduino/hardware/arduino/cores/core13 for the first file and /windows/Program Files (x86)/Arduino/hardware/arduino/cores/ for the second one. If core13 folder doesn't exist create it. Finally add to the end of the file /windows/Program Files (x86)/Arduino/hardware/arduino/boards.txt :
 
