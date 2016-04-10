@@ -12,6 +12,8 @@ title: "Keep Learning"
 <span style="font-size: medium;">Once upon a time a very strong woodcutter asked for a job with a timber merchant, and he got it. The salary was really good and so were the work conditions. For that reason, the woodcutter was determined to do his best.</span>
 His boss gave him an axe and showed him the area where he was supposed to work. The first day, the woodcutter brought 18 trees. "Congratulations," the boss said. "Go on that way!" Very motivated by the boss' words, the woodcutter tried harder the next day, but could bring 15 trees only. The third day he tried even harder, but could bring 10 trees only. Day after day he was bringing less and less trees.
 
+<!-- more -->
+
 <span style="font-size: medium;"><!--more-->"I must be losing my strength", the woodcutter thought. He went to the boss and apologized, saying that he could not understand what was going on.</span> "When was the last time you sharpened your axe?" the boss asked. "Sharpen? I had no time to sharpen my axe. I have been very busy trying to cut trees..."
 
 <strong>Moral of the story</strong> : Working hard is not enough; one has to keep on sharpening one's skills.
