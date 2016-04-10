@@ -171,7 +171,6 @@ In order to wire Attiny13 you can follow this diagram taking in account that res
 
 <center><figure><a href="/images/ATtiny45-85.png" alt="leo_attiny851"><img src="/images/ATtiny45-85.png" alt="ATtiny45-85"/></a><figcaption>Just for reference the Attiny pinout.</figcaption></figure></center>
 
-Have a look to <a href="http://www.correderajorge.es/wp-content/uploads/2013/08/leonardov2-300x212.png" target="_blank">Arduino Leonardo pin out</a> and <a href="http://www.correderajorge.es/wp-content/uploads/2013/08/AtTiny13-300x69.png" target="_blank">Attiny pin out</a> to know what are you doing.
 <h3>5) Program Attiny</h3>
 The last but not the least is programming Attiny13. Just select, for example, the blink example setting up the proper output pin :
 
