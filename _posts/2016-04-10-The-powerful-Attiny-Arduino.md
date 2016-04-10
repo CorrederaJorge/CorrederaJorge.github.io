@@ -167,9 +167,11 @@ attiny85avrisp.build.core=attiny45_85
 <h3>4) Wire Attiny with Arduino Leonardo ISP.</h3>
 In order to wire Attiny13 you can follow this diagram taking in account that reset is pin number 10 as it is showed.
 
-<center><a href="http://www.correderajorge.es/wp-content/uploads/2013/08/leo_attiny851.png"><img class="aligncenter size-medium wp-image-1067" src="http://www.correderajorge.es/wp-content/uploads/2013/08/leo_attiny851-249x300.png" alt="leo_attiny851" width="249" height="300" /></a></center>Just for reference the Attiny pinout.
+<center><img class="alignnone" src="/images/leo_attiny851.png" alt="leo_attiny851"/></center>Just for reference the Attiny pinout.
 
-<center><a href="http://www.correderajorge.es/wp-content/uploads/2013/08/ATtiny45-85.png"><img class="aligncenter size-medium wp-image-1099" src="http://www.correderajorge.es/wp-content/uploads/2013/08/ATtiny45-85-300x107.png" alt="ATtiny45-85" width="300" height="107" /></a></center>Have a look to <a href="http://www.correderajorge.es/wp-content/uploads/2013/08/leonardov2-300x212.png" target="_blank">Arduino Leonardo pin out</a> and <a href="http://www.correderajorge.es/wp-content/uploads/2013/08/AtTiny13-300x69.png" target="_blank">Attiny pin out</a> to know what are you doing.
+<center><img class="alignnone" src="/images/ATtiny45-85.png" alt="ATtiny45-85"/></center>
+
+Have a look to <a href="http://www.correderajorge.es/wp-content/uploads/2013/08/leonardov2-300x212.png" target="_blank">Arduino Leonardo pin out</a> and <a href="http://www.correderajorge.es/wp-content/uploads/2013/08/AtTiny13-300x69.png" target="_blank">Attiny pin out</a> to know what are you doing.
 <h3>5) Program Attiny</h3>
 The last but not the least is programming Attiny13. Just select, for example, the blink example setting up the proper output pin :
 <div id="code">
