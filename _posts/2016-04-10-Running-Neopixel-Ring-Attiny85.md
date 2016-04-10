@@ -12,7 +12,7 @@ title: Running Neopixel Ring with Attiny85
 
 I don't usually advertise anything from private companies but I really like <a href="http://www.adafruit.com/products/1463#Distributors" target="_blank">Neopixel Ring</a>. It is a bit expensive if you compare it with isolated rgb leds however you have to take in account they are really tiny and that could be a problem.
 
-<center><figure><a href="/images/NeoPixel-Ring.jpg" alt="leo_attiny851"><img src="/images/NeoPixel-Ring.jpg" width="249" height="300"></a><figcaption>The Arduino connection.</figcaption></figure></center>
+<center><figure><a href="/images/NeoPixel-Ring.jpg" alt="leo_attiny851"><img src="/images/NeoPixel-Ring.jpg" width="249" height="300"></a><figcaption>NeoPixel Ring at full power.</figcaption></figure></center>
 
 <!-- more -->
 
