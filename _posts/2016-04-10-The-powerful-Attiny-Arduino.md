@@ -167,7 +167,7 @@ attiny85avrisp.build.core=attiny45_85
 <h3>4) Wire Attiny with Arduino Leonardo ISP.</h3>
 In order to wire Attiny13 you can follow this diagram taking in account that reset is pin number 10 as it is showed.
 
-<figure><a href="/images/leo_attiny851.png" alt="leo_attiny851"  width="249" height="300"/><img src="/images/leo_attiny851.png" alt="">Just for reference the Attiny pinout.</a></figure>
+<figure><a href="/images/leo_attiny851.png" alt="leo_attiny851" /><img src="/images/leo_attiny851.png" width="249" height="300">Just for reference the Attiny pinout.</a></figure>
 
 <center><img class="alignnone" src="/images/ATtiny45-85.png" alt="ATtiny45-85"/></center>
 
