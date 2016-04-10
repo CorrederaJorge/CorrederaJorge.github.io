@@ -167,7 +167,7 @@ attiny85avrisp.build.core=attiny45_85
 <h3>4) Wire Attiny with Arduino Leonardo ISP.</h3>
 In order to wire Attiny13 you can follow this diagram taking in account that reset is pin number 10 as it is showed.
 
-<center><img class="alignnone" src="/images/leo_attiny851.png" alt="leo_attiny851"/></center>Just for reference the Attiny pinout.
+<center><img class="alignnone" src="/images/leo_attiny851.png" alt="leo_attiny851"  width="249" height="300"/></center>Just for reference the Attiny pinout.
 
 <center><img class="alignnone" src="/images/ATtiny45-85.png" alt="ATtiny45-85"/></center>
 
@@ -201,5 +201,5 @@ Now I am ready to create a <a href="http://guillermoamaral.com/read/rpi-pwrbtn-p
 1. <a href="http://petervanhoyweghen.wordpress.com/2012/09/16/arduinoisp-on-the-leonardo/" target="_blank">ArduinoISP on the Leonardo</a>
 2. <a href="http://www.pighixxx.com/downloads/arduino-leonardo-v2/" target="_blank">Arduino Leonardo pin out</a>
 3. <a href="http://elabz.com/arduino-shrunk-how-to-use-attiny13-with-arduino-ide/" target="_blank">Arduino shrunk how to use ATtiny13 with Arduino IDE</a>
-4. <a href="http://datamanlv.blogspot.com.es/2009/11/programming-attiny13.html" target="_blank">4) Programming an ATTiny13</a>
+4. <a href="http://datamanlv.blogspot.com.es/2009/11/programming-attiny13.html" target="_blank">Programming an ATTiny13</a>
 5. <a href="http://hlt.media.mit.edu/?p=1229" target="_blank">Programming an ATtiny w/ Arduino 0022</a>
