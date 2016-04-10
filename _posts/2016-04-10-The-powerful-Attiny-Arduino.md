@@ -198,8 +198,8 @@ Select "Tools", "Programmer" and "Arduino as ISP (leonardo)" and choose Attiny13
 <h3>6) Where to go from here</h3>
 Now I am ready to create a <a href="http://guillermoamaral.com/read/rpi-pwrbtn-pcb-r1/" target="_blank">touch button</a> to switch on and off the Raspberry pi.
 <h3>7) References</h3>
-<a href="http://petervanhoyweghen.wordpress.com/2012/09/16/arduinoisp-on-the-leonardo/" target="_blank">1) ArduinoISP on the Leonardo</a>
-<a href="http://www.pighixxx.com/downloads/arduino-leonardo-v2/" target="_blank">2) Arduino Leonardo pin out</a>
-<a href="http://elabz.com/arduino-shrunk-how-to-use-attiny13-with-arduino-ide/" target="_blank">3) Arduino shrunk ÔÇô how to use ATtiny13 with Arduino IDE</a>
-<a href="http://datamanlv.blogspot.com.es/2009/11/programming-attiny13.html" target="_blank">4) Programming an ATTiny13</a>
-<a href="http://hlt.media.mit.edu/?p=1229" target="_blank">5) Programming an ATtiny w/ Arduino 0022</a>
+1. <a href="http://petervanhoyweghen.wordpress.com/2012/09/16/arduinoisp-on-the-leonardo/" target="_blank">ArduinoISP on the Leonardo</a>
+2. <a href="http://www.pighixxx.com/downloads/arduino-leonardo-v2/" target="_blank">Arduino Leonardo pin out</a>
+3. <a href="http://elabz.com/arduino-shrunk-how-to-use-attiny13-with-arduino-ide/" target="_blank">Arduino shrunk how to use ATtiny13 with Arduino IDE</a>
+4. <a href="http://datamanlv.blogspot.com.es/2009/11/programming-attiny13.html" target="_blank">4) Programming an ATTiny13</a>
+5. <a href="http://hlt.media.mit.edu/?p=1229" target="_blank">Programming an ATtiny w/ Arduino 0022</a>
