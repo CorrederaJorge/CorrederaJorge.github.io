@@ -17,6 +17,7 @@ It was by chance I discovered Attiny Arduino devices. Due to the prize and size 
 
 <h3>Programming process</h3>
 In order to program this device it is necessary to use another Arduino. In this case I will use an Arduino Leonardo. It will be used as a ISP (In system programmer) programmer. The steps to follow:
+
 1. Install Arduino Leonardo
 2. Configure Arduino as a ISP programmer.
 3. Add Attiny libraries to Arduino IDE.
