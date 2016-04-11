@@ -2,7 +2,6 @@
 published: true
 layout: post
 description: Keep Learning
-modified: {}
 tags: 
   - courses
 title: "Keep Learning"
