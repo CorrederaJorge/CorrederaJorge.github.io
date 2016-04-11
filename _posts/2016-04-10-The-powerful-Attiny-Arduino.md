@@ -2,7 +2,6 @@
 published: true
 layout: post
 description: How to programm Attiny using Arduino
-modified: {}
 tags: 
   - arduino
 categories: 
