@@ -2,9 +2,8 @@
 published: true
 layout: post
 tags: 
-  - Ros
-  - Raspberry Pi
-description: Installing Ros on Raspberry Pi
+  - Ted Talk
+description: "Spanish TedTalk about Maker groups"
 title: "Yo, Maker: Juan Gonzalez Objiuan at TEDxValladolid"
 ---
 
