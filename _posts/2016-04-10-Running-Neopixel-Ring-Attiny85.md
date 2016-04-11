@@ -5,7 +5,6 @@ tags:
   - Arduinio
   - NeoPixel
 description: Running NeoPixel with Attiny
-modified: {}
 title: Running Neopixel Ring with Attiny85
 ---
 
