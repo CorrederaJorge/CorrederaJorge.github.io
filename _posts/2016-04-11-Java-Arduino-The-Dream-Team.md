@@ -1,5 +1,12 @@
 ---
-published: false
+published: true
+layout: post
+description: Java and Arduino : The Dream Team
+modified: {}
+tags: 
+  - Java
+  - Arduino
+title: "Keep Learning"
 ---
 
 In this post I would like to show how to connect JAVA 8 and Arduino. My objective was being able to control some servos using Java, so for that it was necessary to use RXTX library. At first there was plenty of tutorials so it was easy, but it took me several hours to realize how to make it run properly. In conclusion here you are a basic how to with the main points
