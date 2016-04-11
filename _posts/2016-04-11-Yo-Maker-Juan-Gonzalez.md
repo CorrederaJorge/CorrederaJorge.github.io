@@ -4,7 +4,7 @@ layout: post
 description:"Spanish TedTalk about Maker groups"
 tags: 
   - Ted Talk
-title: "Yo, Maker: Juan Gonzalez "Objiuan" at TEDxValladolid"
+title: "Yo, Maker: Juan Gonzalez 'Objiuan' at TEDxValladolid"
 ---
 
 
