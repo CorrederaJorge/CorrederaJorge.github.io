@@ -1,6 +1,12 @@
 ---
-published: false
+published: true
+layout: post
+description: How to set up a music player daemon in Raspberry pi
+tags: 
+  - Raspberry pi
+title: "Music Player Daemon on Raspberry"
 ---
+
 
 
 In this post I will show how to install a music server on the Raspberry to play music. The objective of this post is installing MPD with MPC or another front end to be able to control the music player and let it play.
