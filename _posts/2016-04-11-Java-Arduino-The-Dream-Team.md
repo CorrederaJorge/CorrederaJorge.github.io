@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-description: Java and Arduino : The Dream Team
+description: "Java and Arduino : The Dream Team"
 modified: {}
 tags: 
   - Java
