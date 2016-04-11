@@ -2,7 +2,6 @@
 published: true
 layout: post
 description: "Connect Java and Arduino"
-modified: {}
 tags: 
   - Java
   - Arduino
