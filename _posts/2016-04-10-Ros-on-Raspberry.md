@@ -3,7 +3,7 @@ published: true
 layout: post
 tags: 
   - Ros
-  - RaspberryPi
+  - Raspberry Pi
 description: Installing Ros on Raspberry Pi
 title: Installing Ros on Raspberry Pi
 ---
