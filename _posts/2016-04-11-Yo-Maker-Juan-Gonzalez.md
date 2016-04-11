@@ -1,10 +1,13 @@
 ---
 published: true
 layout: post
-description:"Spanish TedTalk about Maker groups"
-tags:[Ted Talk]
-title: "Yo, Maker: Juan Gonzalez Objiuan at TEDxValladolid"
+tags: 
+  - Ros
+  - Raspberry Pi
+description: Installing Ros on Raspberry Pi
+title: Yo, Maker: Juan Gonzalez Objiuan at TEDxValladolid
 ---
+
 
 
 This is a Obijuan talk at TEDxValladolid. It is only in Spanish, but if you are able to understand it, it is worth it !!!.
