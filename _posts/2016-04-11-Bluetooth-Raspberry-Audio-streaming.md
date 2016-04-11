@@ -2,7 +2,6 @@
 published: true
 layout: post
 description: "How to connect Raspberry pi using bluetooth"
-modified: {}
 tags: 
   - Raspberry pi
 title: "Bluetooth on Raspberry - Audio streaming"
