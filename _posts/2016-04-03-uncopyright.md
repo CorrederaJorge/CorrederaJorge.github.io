@@ -2,7 +2,6 @@
 published: true
 layout: post
 description: Copyrights
-modified: {}
 title: Uncopyright
 ---
 
