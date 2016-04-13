@@ -11,7 +11,8 @@ This robots is the Darwin robot little brother. The good thing is that it is sma
 
 <center><figure><a href="/images/DarwinMini.jpg"><img src="/images/DarwinMini.jpg" width="300" height="300"></a><figcaption>Darwin Mini Robot</figcaption></figure></center>
 
-<!--more-->
+<!-- more -->
+
 <h2>1) Description</h2>
 I don't have too much information about it but I think Robotis will release all the information as they did before with the old Darwin version. At this very moment this robot will use Dynamixe XL-320 Servos with CM-904a driver board and LiPo batteries.
 
@@ -67,5 +68,5 @@ And now let's see how it moves.
 
 <center><iframe src="//www.youtube.com/embed/bPwO9mHNzQg" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></center><center><img class="ngg_displayed_gallery mceItem" alt="" src="http://www.correderajorge.es/nextgen-attach_to_post/preview/id--1287" /></center>
 <h3>3) References</h3>
-a) <a title="Robots Dreams" href="http://www.robots-dreams.com/2013/10/robotworld-2013-meet-darwin-mini.html" target="_blank">Robot Dreams</a>
-b) <a title="Humanoides" href="http://www.humanoides.fr/2013/10/31/robotis-lance-la-version-miniature-du-darwin-op/" target="_blank">Humanoides</a>
+1. <a title="Robots Dreams" href="http://www.robots-dreams.com/2013/10/robotworld-2013-meet-darwin-mini.html" target="_blank">Robot Dreams</a>
+2. <a title="Humanoides" href="http://www.humanoides.fr/2013/10/31/robotis-lance-la-version-miniature-du-darwin-op/" target="_blank">Humanoides</a>
