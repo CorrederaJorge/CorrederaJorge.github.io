@@ -1,10 +1,10 @@
 ---
 published: true
 layout: post
-description: "Cool Robots - Hina ver.RF09"
+description: "Hina ver.RF09"
 tags: 
   - Cool Robots
-title: "Cool Robots - Hina ver.RF09"
+title: "Hina ver.RF09"
 ---
 
 
