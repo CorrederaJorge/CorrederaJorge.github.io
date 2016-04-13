@@ -1,3 +1,12 @@
+---
+published: true
+layout: post
+description: "Darwin Mini"
+tags: 
+  - Cool Robots
+title: "Darwin Mini"
+---
+
 This robots is the Darwin robot little brother. The good thing is that it is smaller and I think it would be much cheaper.
 
 <center><figure><a href="/images/DarwinMini.jpg"><img src="/images/DarwinMini.jpg" width="300" height="300"></a><figcaption>Darwin Mini Robot</figcaption></figure></center>
