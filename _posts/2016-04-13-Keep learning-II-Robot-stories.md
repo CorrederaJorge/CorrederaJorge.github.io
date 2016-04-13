@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+description: "Keep learning II : Robot stories - Multiple robot courses"
+tags: 
+  - Courses
+title: "Keep learning II : Robot stories"
 ---
 
 
