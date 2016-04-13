@@ -10,7 +10,7 @@ title: "Keep learning II : Robot stories"
 
 After long time without a proper learning course it is time to prepare the tools to learn robotic stuff as easy as possible. In this post I will show my next steps and I would like to organize all the things I would like to have time to learn.
 
-<center><img src="/images/reading-robot.png" width="300" height="300"></center>
+<center><img src="/images/reading-robot.jpg" width="300" height="300"></center>
 <!-- more -->
 
 <h3>Coursera courses</h3>
