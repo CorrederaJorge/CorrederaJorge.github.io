@@ -16,7 +16,7 @@ The main idea of this new section is showing Cool Robots that industry or people
 In this post I would like to present <strong>Apripoco</strong> & his little brother <strong>Apripetit</strong>. Toshiba has developed a prototype robot that is essentially works as a universal remote for your home. The idea behind this robot is controling devices symply asking Apripoco to control it.
 
 <figure class="half">
-	<a href="/images/apripetit.jpg"><img src="/images/apripetit.jpg" alt=""></a>
+	<a href="/images/apripetit.jpg"><img src="/images/apripetit1.jpg" alt=""></a>
 	<a href="/images/apripoco1.jpg"><img src="/images/apripoco1.jpg" alt=""></a>
 	<a href="/images/apripoco2.jpg"><img src="/images/apripoco2.jpg" alt=""></a>
 	<a href="/images/apripoco3.jpg"><img src="/images/apripoco3.jpg" alt=""></a>
