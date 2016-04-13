@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+description: "Apripoco and Apripetit comparison"
+tags: 
+  - Cool Robots
+title: "Apripoco & Apripetit"
 ---
 
 The main idea of this new section is showing Cool Robots that industry or people does, showing why I like them and trying to learn something new about their design.
