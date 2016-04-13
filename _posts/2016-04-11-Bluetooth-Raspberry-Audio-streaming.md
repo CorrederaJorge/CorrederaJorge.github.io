@@ -1,11 +1,10 @@
 ---
-published: true
-layout: post
-description: "Darwin Mini"
-tags: 
-  - Cool Robots
-title: "Darwin Mini"
----
+ published: true
+ layout: post
+ description: "How to connect Raspberry pi using bluetooth"
+ tags: 
+   - Raspberry pi
+ title: "Bluetooth on Raspberry - Audio streaming"
 
 In this post I would like to show how to install a bluetooth dongle to stream music from the Raspberry pi to bluetooth loud speakers. As I didn't have bluetooth loud speakers I bought a cheap receiver bluetooth in eBay to stream music.
 
