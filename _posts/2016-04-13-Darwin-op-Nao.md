@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+description: "Darwin op & Nao"
+tags: 
+  - Cool Robots
+title: "Darwin op & Nao"
 ---
 
 In this new post I would like to present two of the most amazing robots I have ever seen. In my opinion biped robots are the most interesting one because the amount of technology necessary to make them move and because they look like human.
