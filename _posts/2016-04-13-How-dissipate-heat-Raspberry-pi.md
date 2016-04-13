@@ -1,6 +1,12 @@
 ---
-published: false
+published: true
+layout: post
+description: How to dissipate heat in the Raspberry - pi
+tags: 
+  - Rasbperry Pi
+title: How to dissipate heat in the Raspberry - pi
 ---
+
 
 Since I read an article talking about the temperature that my little Raspberry - pi could reach I wanted to use some passive elements to reduce it. So a really easy way to do is adding some aluminium heat sink to reduce the heat. They are used for RAM memory. You can find easily on Ebay or Dx.
 
