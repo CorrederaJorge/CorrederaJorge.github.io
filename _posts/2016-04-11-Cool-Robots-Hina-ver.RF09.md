@@ -10,7 +10,7 @@ title: "Hina ver.RF09"
 
 For those who don't know Japanese Hina means princess (neither do I). This robot it is a cute biped robot that is able to move and walk. In the next video you could see how the robot is able to move and make coffee. Of course it is not really true but who cares!!.
 
-<center><figure><a href="/images/hina00.png"><img src="/images/hina00.png" width="300" height="300"></a><figcaption>The Arduino connection.</figcaption></figure></center>
+<center><figure><a href="/images/hina00.png"><img src="/images/hina00.png" width="300" height="300"></a><figcaption>Hina Robot</figcaption></figure></center>
 
 <!-- more -->
 
