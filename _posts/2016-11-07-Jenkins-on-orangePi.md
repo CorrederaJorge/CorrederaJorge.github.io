@@ -54,7 +54,7 @@ Main charactersitics from  <a href="http://www.orangepi.org/orangepipc/" target=
 </table>
 <h3>Software</h3>
 There are plenty of OS that you can install, in my case I decided to use ARMBian. As a CI server I will use Jenkins. It fits my requirements and I am used to it. In order to install Jenkins Java must be installed before. 
-<h4>Os</h2>
+<h4>Os</h4>
 In order to use <a href="http://www.armbian.com/orange-pi-pc/" target="_blank">ARMBian</a> you have to download the image and copy in to a SD card. I had some problems because I tried with different software to do it. The only one that worked properly was <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank">Win32diskManager</a>. 
 
 After that you have to boot the system and update it:
