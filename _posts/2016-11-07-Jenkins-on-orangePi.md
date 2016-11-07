@@ -17,6 +17,7 @@ Based on <a href="https://en.wikipedia.org/wiki/Continuous_integration" target="
 <h3>Hardware</h3>
 There are some alternatives to <a href="http://www.orangepi.org/" target="_blank">Orange pi</a>  like <a href="https://www.raspberrypi.org/" target="_blank">Raspberry pi</a>. I decide to use Orange pi because is cheaper, however Raspberry pi alternative is better documented an easier to use. It is up to you to decide. 
 
+Main charactersitics from  <a href="http://www.orangepi.org/orangepipc/" target="_blank">Orange pi</a> are:
  <table class="table table-bordered table-hover">
   <tr>
     <td  colspan="3" ><h3 >Hardware&nbsp;specification </h3></td>
