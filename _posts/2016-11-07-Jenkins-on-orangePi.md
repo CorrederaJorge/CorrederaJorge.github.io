@@ -63,7 +63,7 @@ sudo apt-get update
 sudo apt-get upgrade
 {% endhighlight %}
 
-<h4>Jenkins</h2>
+<h4>Jenkins</h4>
 
 First of all Java must be installed:
 {% highlight bash %}
@@ -101,3 +101,7 @@ sudo apt-get install jenkins
 {% endhighlight %}
 
 Now you can access to your server ip using 8080 port.
+
+<h3>References</h3>
+1. <a href="http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html" target="_blank">Install Java8</a>
+2. <a href="https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu" target="_blank">Install Jenkins</a>
