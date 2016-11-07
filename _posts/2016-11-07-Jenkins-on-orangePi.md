@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 description: Use Orange pi Pc to create Jenkins CI server
 tags:
