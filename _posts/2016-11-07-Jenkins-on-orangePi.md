@@ -52,3 +52,52 @@ Main charactersitics from  <a href="http://www.orangepi.org/orangepipc/" target=
     <td valign="top" colspan="2" ><p >Three USB 2.0 HOST, one USB 2.0 OTG </p></td>
   </tr>
 </table>
+<h3>Software</h3>
+There are plenty of OS that you can install, in my case I decided to use ARMBian. As a CI server I will use Jenkins. It fits my requirements and I am used to it. In order to install Jenkins Java must be installed before. 
+<h4>Os</h2>
+In order to use <a href="http://www.armbian.com/orange-pi-pc/" target="_blank">ARMBian</a> you have to download the image and copy in to a SD card. I had some problems because I tried with different software to do it. The only one that worked properly was <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank">Win32diskManager</a>. 
+
+After that you have to boot the system and update it:
+{% highlight bash %}
+sudo apt-get update
+sudo apt-get upgrade
+{% endhighlight %}
+
+<h4>Jenkins</h2>
+
+First of all Java must be installed:
+{% highlight bash %}
+su -
+echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
+apt-get update
+apt-get install oracle-java8-installer
+exit
+{% endhighlight %}
+
+if you want to set Oracle Java 8 as default:
+{% highlight bash %}
+sudo apt-get install oracle-java8-set-default
+{% endhighlight %}
+
+Check java version installed:
+{% highlight bash %}
+java -version
+{% endhighlight %}
+
+Finally install <a href="https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu" target="_blank">Jenkins</a>:
+{% highlight bash %}
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+{% endhighlight %}
+
+Upgrade and install:
+{% highlight bash %}
+sudo apt-get update
+sudo apt-get install jenkins
+{% endhighlight %}
+
+Now you can access to your server ip using 8080 port.
