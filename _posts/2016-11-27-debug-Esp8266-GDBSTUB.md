@@ -46,3 +46,4 @@ extern "C" void  __attribute__((weak)) user_init(void)
 <h3>References</h3>
 1. <a href="https://github.com/espressif/esp-gdbstub" target="_blank">Esp GdbStub</a>
 2. <a href="https://blog.attachix.com/live-debugging-with-open-source-tools-programming-for-esp8266-part-4/" target="_blank">Esp GdbStub</a>
+2. <a href="http://kacangbawang.com/esp8266-sdk-how-to-debug-with-gdb/" target="_blank">Esp GdbStub</a>
