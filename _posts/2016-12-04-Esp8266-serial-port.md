@@ -14,7 +14,6 @@ In this tutorial I will show how to set up a basic serial port with the Esp8266 
 <h2>Installation process</h2>
 First of all you have to install Esp Open Sdk and Esp Open Rtos. After that you have to compile and flash the program inside the Esp. You can find explanation how to do it <a href="{{ site.baseurl }}{% post_url 2016-11-27-Esp8266-FreeRtos %}" target="_blank">here</a> 
 
-
 <h2>Compiling and flashing</h2>
 After installing everything just go inside esp-open-rtos/examples/simple and type: 
 {% highlight bash %}
@@ -115,3 +114,7 @@ Got 8
 Got 9
 Got 10
 {% endhighlight %}
+
+
+<h3>References</h3>
+1. <a href="https://github.com/SuperHouse/esp-open-rtos/tree/master/examples" target="_blank">Esp Open Rtos examples</a>
