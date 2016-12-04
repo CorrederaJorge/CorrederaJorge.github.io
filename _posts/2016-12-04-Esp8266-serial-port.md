@@ -1,9 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 description: Basic FreeRtos Esp8266 serial port with pc
 tags:
   - Esp8266 FreeRtos
+title: "Basic Esp Serial port configuration in Rtos"
 ---
 <center><img src="/images/freeRtos.png" width="236" height="92"></center>
 
