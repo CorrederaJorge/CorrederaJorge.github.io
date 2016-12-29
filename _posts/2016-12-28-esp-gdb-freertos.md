@@ -2,9 +2,9 @@
 published: true
 layout: post
 description: Debug on Esp Open Rtos with GDB stub
-tags: 
+tags:
   - Esp8266 Rtos
-title: "Debug on Esp Open Rtos with GDB stub"
+title: Debug on Esp Open Rtos with GDB stub
 ---
 
 
@@ -17,7 +17,7 @@ One thing that Esp didn't have yet is a proper debug tool. The objective of this
 - <a href="{{ site.baseurl }}{% post_url 2016-11-21-esp8266-openSdk %}" target="_blank">Install Esp Open Sdk</a> 
 - <a href="{{ site.baseurl }}{% post_url 2016-11-27-Esp8266-FreeRtos %}" target="_blank">Install Esp Open Rtos</a> 
 
-<h2>Esp Open Rtos GDBStub installation<h2>
+<h2>Esp Open Rtos GDBStub installation</h2>
 In order to install GDB stub you have to follow the instructions from <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>.
 
 Clone repository.
