@@ -44,7 +44,53 @@ include ../../common.mk
 LIBS+=esp-gdbstub
 {% endhighlight %}
 
+After that you have to configure the library inside the blink.c project.
+
+{% highlight c %}
+#include <stdlib.h>
+#include "espressif/esp_common.h"
+#include "esp/uart.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "esp8266.h"
+
+// Added to add gdbstub support
+#include "gdbstub.h"
+
+const int gpio = 2;
+
+void blinkenTask(void *pvParameters)
+{
+    gpio_enable(gpio, GPIO_OUTPUT);
+    while(1) {
+        gdbstub_do_break();
+        gpio_write(gpio, 1);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        gpio_write(gpio, 0);
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
+    }
+}
+
+void user_init(void)
+{
+    uart_set_baud(0, 115200);
+    // Added to add gdbstub configuration
+    // It must be done after uart configuration
+    gdbstub_init();
+
+    xTaskCreate(blinkenTask, "blinkenTask", 256, NULL, 2, NULL);
+}
+{% endhighlight %}
+
+Based on <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Ivanov notes</a>:
+- Note that upon launching the debug session gdb will send “continue” command if the target is paused at gdbstub_do_break. If you want to stop right after debug session launch, place gdbstub_do_break macro twice in your code.
+- Using software breakpoints ('br') only works on code that's in RAM. Code in flash can only have a hardware breakpoint ('hbr'). If you know where you want to break before downloading the program to the target, you can use gdbstub_do_break() macro as much as you want.
+- Due to hardware limitations, only one hardware breakpount and one hardware watchpoint are available.
+
+
 <h2>Eclipse configuration</h2>
+
+If you want you can import the project example inside Rtos folder in Eclipse. I am using: Eclipse IDE for C/C++ Developers. Version: Neon.1a Release (4.6.1). In order to do that: File -> Import -> Existng Code as Makefile Project and go to your Blink project. 
 
 <h3>References</h3>
 1. <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>
