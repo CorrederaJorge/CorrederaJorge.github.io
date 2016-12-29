@@ -105,17 +105,18 @@ After that to configure the project go to: Debug configurations -> Rigth over C/
 
 <center><img src="/images/2016-12-28-esp-gdb-freertos/NewRemoteDebug.png" width="330" height="420"></center>
 
+![Debug configuration]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/NewRemoteDebug.png)
+
 In the debugger tab unselect "Stop on startup at:".
 
 In the main tab select "GDB debugger" and "GDB command line file". GDB debugger must point to the path where is the Esp debugger in my case: "/opt/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gdb" and GDB command must point to the .gdbinit file you downloaded from the <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>.
 
-<center><img src="/images/2016-12-28-esp-gdb-freertos/RemoteDebugDebugger.png" width="330" height="420"></center>
+![Debug configuration]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/RemoteDebugDebugger.png)
+
 
 Finally you have to set up the serial port in the Connection tap.
-
-<center><img src="/images/2016-12-28-esp-gdb-freertos/RemoteDebuggerConnection.png" width="330" height="420"></center>
-
-![My helpful screenshot]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/RemoteDebuggerConnection.png)
+ 
+![Debug configuration]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/RemoteDebuggerConnection.png)
 
 
 <h3>References</h3>
