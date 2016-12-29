@@ -92,6 +92,8 @@ Based on <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Ivano
 
 If you want you can import the project example inside Rtos folder in Eclipse. I am using: Eclipse IDE for C/C++ Developers. Version: Neon.1a Release (4.6.1). In order to do that: File -> Import -> Existng Code as Makefile Project and go to your Blink project. 
 
+<center><img src="/images/2016-12-28-esp-gdb-freertos/projectExplorer.png" width="330" height="420"></center>
+
 <h3>References</h3>
 1. <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>
 2. <a href="https://github.com/Espressif/esp-gdbstub" target="_blank">Espressif GDB</a>
