@@ -101,7 +101,7 @@ If you want you can import the project example inside Rtos folder in Eclipse. I 
 
 <center><img src="/images/2016-12-28-esp-gdb-freertos/projectExplorer.png" width="330" height="420"></center>
 
-After that to configure the project go to: Debug configurations -> Rigth over C/C++ Remote Aplication -> New . Click at the bottom of the window on "Select other..." and choose "Use configuration specific settings" -> "GDB (DSF) Manual Remote Debugging Launcher". 
+After that to configure the project go to: Debug configurations -> Rigth over C/C++ Remote Application -> New . Click at the bottom of the window on "Select other..." and choose "Use configuration specific settings" -> "GDB (DSF) Manual Remote Debugging Launcher". 
 
 <center><img src="/images/2016-12-28-esp-gdb-freertos/NewRemoteDebug.png" width="330" height="420"></center>
 
