@@ -115,6 +115,8 @@ Finally you have to set up the serial port in the Connection tap.
 
 <center><img src="/images/2016-12-28-esp-gdb-freertos/RemoteDebuggerConnection.png" width="330" height="420"></center>
 
+![My helpful screenshot]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/RemoteDebuggerConnection.png)
+
 
 <h3>References</h3>
 1. <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>
