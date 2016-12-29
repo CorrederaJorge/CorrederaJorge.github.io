@@ -94,6 +94,14 @@ If you want you can import the project example inside Rtos folder in Eclipse. I 
 
 <center><img src="/images/2016-12-28-esp-gdb-freertos/projectExplorer.png" width="330" height="420"></center>
 
+After that to configure the project go to: Debug configurations -> Rigth over C/C++ Remote Aplication -> New . Click at the bottom of the window on "Select other..." and choose "Use configuration specific settings" -> "GDB (DSF) Manual Remote Debugging Launcher". 
+
+<center><img src="/images/2016-12-28-esp-gdb-freertos/NewRemoteDebug.png" width="330" height="420"></center>
+
+In the debugger tab unselect "Stop on startup at:".
+
+In the main tab 
+
 <h3>References</h3>
 1. <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>
 2. <a href="https://github.com/Espressif/esp-gdbstub" target="_blank">Espressif GDB</a>
