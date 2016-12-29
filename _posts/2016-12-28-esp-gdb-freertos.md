@@ -25,7 +25,7 @@ Clone repository.
 sudo git clone https://github.com/resetnow/esp-gdbstub
 {% endhighlight %}
 
-You have to install premake5. I haven't found it in the Linux repositories so I have downloaded fron <a href="https://premake.github.io/download.html" target="_blank">here</a> and put in the same folder as the project.
+You have to install premake5. I haven't found it in the Linux repositories so I have downloaded from <a href="https://premake.github.io/download.html" target="_blank">here</a> and put in the same folder as the project.
 
 After that you have to run Premake5 that will create a make file. --with-eor flag must point to Esp Open Rtos installation folder. 
 
@@ -33,7 +33,7 @@ After that you have to run Premake5 that will create a make file. --with-eor fla
 premake5 gmake --with-eor=/home/workspace/esp-open-rtos
 {% endhighlight %}
 
-<h2>Proyect configuration</h2>
+<h2>Project configuration</h2>
 I am going to use basic blink project from Esp Open Rtos example. In this project you have Makefile file.
 
 {% highlight makefile %}
@@ -92,7 +92,7 @@ void user_init(void)
 Based on <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Ivanov notes</a>:
 - Note that upon launching the debug session gdb will send “continue” command if the target is paused at gdbstub_do_break. If you want to stop right after debug session launch, place gdbstub_do_break macro twice in your code.
 - Using software breakpoints ('br') only works on code that's in RAM. Code in flash can only have a hardware breakpoint ('hbr'). If you know where you want to break before downloading the program to the target, you can use gdbstub_do_break() macro as much as you want.
-- Due to hardware limitations, only one hardware breakpount and one hardware watchpoint are available.
+- Due to hardware limitations, only one hardware breakpoint and one hardware watchpoint are available.
 
 
 <h2>Eclipse configuration</h2>
