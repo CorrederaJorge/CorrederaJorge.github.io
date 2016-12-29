@@ -103,8 +103,6 @@ If you want you can import the project example inside Rtos folder in Eclipse. I 
 
 After that to configure the project go to: Debug configurations -> Rigth over C/C++ Remote Application -> New . Click at the bottom of the window on "Select other..." and choose "Use configuration specific settings" -> "GDB (DSF) Manual Remote Debugging Launcher". 
 
-<center><img src="/images/2016-12-28-esp-gdb-freertos/NewRemoteDebug.png" width="330" height="420"></center>
-
 ![Debug configuration]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/NewRemoteDebug.png)
 
 In the debugger tab unselect "Stop on startup at:".
@@ -112,7 +110,6 @@ In the debugger tab unselect "Stop on startup at:".
 In the main tab select "GDB debugger" and "GDB command line file". GDB debugger must point to the path where is the Esp debugger in my case: "/opt/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gdb" and GDB command must point to the .gdbinit file you downloaded from the <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>.
 
 ![Debug configuration]({{ site.url }}/images/2016-12-28-esp-gdb-freertos/RemoteDebugDebugger.png)
-
 
 Finally you have to set up the serial port in the Connection tap.
  
