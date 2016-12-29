@@ -33,7 +33,7 @@ After that you have to run Premake5 that will create a make file. --with-eor fla
 premake5 gmake --with-eor=/home/workspace/esp-open-rtos
 {% endhighlight %}
 
-<h2>Proyect configuration<h2>
+<h2>Proyect configuration</h2>
 I am going to use basic blink project from Esp Open Rtos example. In this project you have Makefile file.
 
 {% highlight makefile %}
