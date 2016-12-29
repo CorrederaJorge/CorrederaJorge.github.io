@@ -3,7 +3,7 @@ published: true
 layout: post
 description: Debug on Esp Open Rtos with GDB stub
 tags:
-  - Esp8266 Rtos
+  - 'Esp8266, Rtos'
 title: Debug on Esp Open Rtos with GDB stub
 ---
 
