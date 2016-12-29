@@ -8,7 +8,7 @@ One thing that Esp didn't have yet is a proper debug tool. The objective of this
 
 <h2>First steps</h2>
 - <a href="{{ site.baseurl }}{% post_url 2016-11-21-esp8266-openSdk %}" target="_blank">Install Esp Open Sdk</a> 
-- <a href="{{ site.baseurl }}{% post_url 2016-11-27-Esp8266-FreeRtos %}" target="_blank">Install Free Rtos</a> 
+- <a href="{{ site.baseurl }}{% post_url 2016-11-27-Esp8266-FreeRtos %}" target="_blank">Install Esp Open Rtos</a> 
 
 <h2>Freertos GDBStub installation<h2>
 In order to install GDB stub you have to follow the instructions from <a href="https://github.com/resetnow/esp-gdbstub" target="_blank">Esp GDBStub in github</a>.
@@ -20,6 +20,14 @@ sudo git clone https://github.com/resetnow/esp-gdbstub
 
 You have to install premake5. I haven't found it in the Linux repositories so I have downloaded fron <a href="https://premake.github.io/download.html" target="_blank">here</a> and put in the same folder as the project.
 
+After that you have to run Premake5 that will create a make file. --with-eor flag must point to Esp Open Rtos installation folder. 
+
+{% highlight bash %}
+premake5 gmake --with-eor=/home/workspace/esp-open-rtos
+{% endhighlight %}
+
+<h2>Proyect configuration<h2>
+I am going to use basic blink project from Esp Open Rtos
 
 
 <h2>Eclipse configuration</h2>
