@@ -27,8 +27,22 @@ premake5 gmake --with-eor=/home/workspace/esp-open-rtos
 {% endhighlight %}
 
 <h2>Proyect configuration<h2>
-I am going to use basic blink project from Esp Open Rtos
+I am going to use basic blink project from Esp Open Rtos example. In this project you have Makefile file.
 
+{% highlight makefile %}
+PROGRAM=blink
+
+# Add this line to add gdbstub library.
+# This could change based on your project location
+
+EXTRA_CFLAGS+=-I../../esp-gdbstub/include
+EXTRA_LDFLAGS+=-L../../esp-gdbstub/lib
+
+include ../../common.mk
+
+# Add this line to add gdbstub library.
+LIBS+=esp-gdbstub
+{% endhighlight %}
 
 <h2>Eclipse configuration</h2>
 
