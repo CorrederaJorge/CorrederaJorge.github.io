@@ -4,7 +4,7 @@ layout: post
 description: Basic FreeRtos Esp8266 serial port with pc
 tags:
   - Esp8266 FreeRtos
-title: "Basic Esp Serial port configuration in Rtos"
+title: Basic Esp Serial port configuration in Rtos
 ---
 <center><img src="/images/freeRtos.png" width="236" height="92"></center>
 
@@ -77,7 +77,7 @@ In order to test the program you have to install a serial port in your pc. In th
 
 Install GTKTerm.
 {% highlight bash %}
-sudo apt-get install gkterm
+sudo apt-get install gtkterm
 {% endhighlight %}
 
 Based on the example program port parameters are:
