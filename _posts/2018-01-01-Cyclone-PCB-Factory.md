@@ -52,6 +52,7 @@ Each axis has 3 jumpers that can be set to configure the micro stepping for the 
 In the tables below High indicates that a Jumper is insert and Low indicates that no jumper is inserted.
 
 Pololu A4988 Stepper Driver configuration:
+
 |MS0 	|MS1 	|MS2 	|Microstep Resolution|
 |-------|--------|---------|---------|
 |Low 	|Low 	|Low 	|Full step|
@@ -61,6 +62,7 @@ Pololu A4988 Stepper Driver configuration:
 |High 	|High 	|High 	|Sixteenth step|
 
 Pololu DRV8825 Stepper Driver configuration:
+
 |MODE0 	|MODE1 	|MODE2 	|Microstep Resolution|
 |-------|--------|---------|---------|
 |Low 	|Low 	|Low 	|Full step|
