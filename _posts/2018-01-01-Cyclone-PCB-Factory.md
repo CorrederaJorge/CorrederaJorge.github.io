@@ -52,23 +52,25 @@ Each axis has 3 jumpers that can be set to configure the micro stepping for the 
 In the tables below High indicates that a Jumper is insert and Low indicates that no jumper is inserted.
 
 Pololu A4988 Stepper Driver configuration:
-MS0 	MS1 	MS2 	Microstep Resolution
-Low 	Low 	Low 	Full step
-High 	Low 	Low 	Half step
-Low 	High 	Low 	Quarter step
-High 	High 	Low 	Eighth step
-High 	High 	High 	Sixteenth step
+|MS0 	|MS1 	|MS2 	|Microstep Resolution|
+|-------|--------|---------|---------|
+|Low 	|Low 	|Low 	|Full step|
+|High 	|Low 	|Low 	|Half step|
+|Low 	|High 	|Low 	|Quarter step|
+|High 	|High 	|Low 	|Eighth step|
+|High 	|High 	|High 	|Sixteenth step|
 
 Pololu DRV8825 Stepper Driver configuration:
-MODE0 	MODE1 	MODE2 	Microstep Resolution
-Low 	Low 	Low 	Full step
-High 	Low 	Low 	Half step
-Low 	High 	Low 	1/4 step
-High 	High 	Low 	1/8 step
-Low 	Low 	High 	1/16 step
-High 	Low 	High 	1/32 step
-Low 	High 	High 	1/32 step
-High 	High 	High 	1/32 step
+|MODE0 	|MODE1 	|MODE2 	|Microstep Resolution|
+|-------|--------|---------|---------|
+|Low 	|Low 	|Low 	|Full step|
+|High 	|Low 	|Low 	|Half step|
+|Low 	|High 	|Low 	|1/4 step|
+|High 	|High 	|Low 	|1/8 step|
+|Low 	|Low 	|High 	|1/16 step|
+|High 	|Low 	|High 	|1/32 step|
+|Low 	|High 	|High 	|1/32 step|
+|High 	|High 	|High 	|1/32 step|
 
 <h3>References</h3>
 1. <a href="https://blog.protoneer.co.nz/arduino-cnc-shield-v3-00-assembly-guide/" target="_blank">Arduino CNC Shield</a>
