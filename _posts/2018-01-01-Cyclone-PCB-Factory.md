@@ -76,5 +76,34 @@ Pololu DRV8825 Stepper Driver configuration:
 |High 	|High 	|High 	|1/32 step|
 {:.mbtablestyle}
 
+<h3> GRBL Configuration</h3>
+Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. This version of Grbl runs on an Arduino with a 328p processor (Uno, Duemilanove, Nano, Micro, etc).
+
+The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
+
+It accepts standards-compliant g-code and has been tested with the output of several CAM tools with no problems. Arcs, circles and helical motion are fully supported, as well as, all other primary g-code commands. Macro functions, variables, and most canned cycles are not supported, but we think GUIs can do a much better job at translating them into straight g-code anyhow.
+
+<h4>$100, $101 and $102 – [X,Y,Z] steps/mm</h4>
+
+Grbl needs to know how far each step will take the tool in reality. To calculate steps/mm for an axis of your machine you need to know:
+
+- The mm traveled per revolution of your stepper motor. This is dependent on your belt drive gears or lead screw pitch.
+- The full steps per revolution of your steppers (typically 200 for NEMA 17 Stepper motor)
+- The microsteps per step of your controller (typically 1, 2, 4, 8, or 16). Tip: Using high microstep values (e.g., 16) can reduce your stepper motor torque, so use the lowest that gives you the desired axis resolution and comfortable running properties.
+- A 8mm diameter rod has a 1.25mm step. That means each rotations the axis moves 1.25mm.
+- Gearbox acceleration factor shows the speed increment donde by the gearbox. 
+
+The steps/mm can then be calculated like this: 
+steps_per_mm = (steps_per_revolution * microsteps * Gearbox acceleration factor)/mm_per_rev
+
+Compute this value for every axis and write these settings to Grbl. In my case:
+
+X axis = 200 * 16 / 1.25 = 2560
+y axis = 200 * 16 / 1.25 = 2560
+z axis = (200 * 16 * (8 / 15))/ 1.25 = 1365
+
+
 <h3>References</h3>
 1. <a href="https://blog.protoneer.co.nz/arduino-cnc-shield-v3-00-assembly-guide/" target="_blank">Arduino CNC Shield</a>
+2.<a href="https://github.com/gnea/grbl" target="_blank">GRBL</a>
+3.<a href="https://www.staticboards.es/blog/dominar-motor-paso-a-paso-con-grbl/" target="_blank">GRBL Configuration</a>
