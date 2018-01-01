@@ -5,7 +5,7 @@ description: Configure Cyclone PCB Factory
 tags:
   - 'PCB, Cyclone'
 ---
-<center><img src="/images/cncPCBFactory.jpg" width="458" height="458"></center>
+<center><img src="/images/CNCPCBFactory.jpg" width="458" height="458"></center>
 The aim of this tutorial is showing how to configure a Cyclone PCB factory. 
 
 <!-- more -->
@@ -25,27 +25,29 @@ The next few sections explains how its done.
 
 Using two jumpers the 4th axis can be configured to clone the X or Y or Z axis. It can also run as an individual axis by using Digital Pin 12 for Stepping signal and Digital Pin 13 as direction signal. (GRBL only supports 3 axis’s at the moment)
 
-Clone X-Axis to the 4th stepper driver(Marked as A)Arduino-CNC-Shield-V3-4th Clone X-Axis
+Clone X-Axis to the 4th stepper driver.
+<center><img src="/images/CNCShieldCloneXAxis.jpg" width="167" height="142"></center>
 
-Clone Y-Axis to the 4th stepper driver(Marked as A)Arduino-CNC-Shield-V3-4th Clone Y-Axis
+Clone Y-Axis to the 4th stepper driver.
+<center><img src="/images/CNCShieldCloneYAxis.jpg" width="167" height="142"></center>
 
-Clone Z-Axis to the 4th stepper driver(Marked as A)Arduino-CNC-Shield-V3-4th Clone Z-Axis
+Clone Z-Axis to the 4th stepper driver.
+<center><img src="/images/CNCShieldCloneZAxis.jpg" width="167" height="142"></center>
 
-Use D12 and D13 to drive the 4th stepper driver(Marked as A)Arduino-CNC-Shield-V3-4th D12-D13
+Use D12 and D13 to drive the 4th stepper driver.
+<center><img src="/images/CNCShieldCloneZAxis.jpg" width="167" height="142"></center>
 
 <h4>End Stop Configuration</h4>
 
 By default GRBL is configured to trigger an alert if an end-stop goes low(Gets grounded). On the forums this has been much debated and some people requested to have active High end-stops. The jumpers in the picture provides the option to do both. (To run with default setting on GRBL the jumper need to be connected like the left shield in the image below)(This Jumper was only introduced in Version 3.02)
-End-stop Configuration Active LOWorHIGH
+<center><img src="/images/CNCShieldEndstopConfiguration.jpg" width="445" height="543"></center>
 
 End-stop switches are standard “always open” switches. An End-stop gets activated when the end-stop pin connects to ground(When setup with default GRBL settings).
-EndStopWiring
 
 <h4>Configuring Micro Stepping for Each Axis</h4>
 
 Each axis has 3 jumpers that can be set to configure the micro stepping for the axis.
-
-Arduino_CNC_Shield_Micro_Stepping_Settings
+<center><img src="/images/CNCShieldMicroSteppingSettings.jpg" width="686" height="550"></center>
 
 In the tables below High indicates that a Jumper is insert and Low indicates that no jumper is inserted.
 
