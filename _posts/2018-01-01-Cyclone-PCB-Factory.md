@@ -98,9 +98,9 @@ steps_per_mm = (steps_per_revolution * microsteps * Gearbox acceleration factor)
 
 Compute this value for every axis and write these settings to Grbl. In my case:
 
-X axis = 200 * 16 / 1.25 = 2560
-y axis = 200 * 16 / 1.25 = 2560
-z axis = (200 * 16 * (8 / 15))/ 1.25 = 1365
+- X axis = 200 * 16 / 1.25 = 2560
+- y axis = 200 * 16 / 1.25 = 2560
+- z axis = (200 * 16 * (8 / 15))/ 1.25 = 1365
 
 
 <h3>References</h3>
