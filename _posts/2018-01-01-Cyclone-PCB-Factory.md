@@ -60,6 +60,7 @@ Pololu A4988 Stepper Driver configuration:
 |Low 	|High 	|Low 	|Quarter step|
 |High 	|High 	|Low 	|Eighth step|
 |High 	|High 	|High 	|Sixteenth step|
+{:.mbtablestyle}
 
 Pololu DRV8825 Stepper Driver configuration:
 
@@ -73,6 +74,7 @@ Pololu DRV8825 Stepper Driver configuration:
 |High 	|Low 	|High 	|1/32 step|
 |Low 	|High 	|High 	|1/32 step|
 |High 	|High 	|High 	|1/32 step|
+{:.mbtablestyle}
 
 <h3>References</h3>
 1. <a href="https://blog.protoneer.co.nz/arduino-cnc-shield-v3-00-assembly-guide/" target="_blank">Arduino CNC Shield</a>
