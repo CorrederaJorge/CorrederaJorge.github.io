@@ -15,8 +15,11 @@ First of all you need to install several programs to create de final gcodes that
 - <a href="https://www.autodesk.com/products/eagle/overview" target="_blank">Eagle</a>
 - <a href="http://flatcam.org/" target="_blank">FlatCam</a>
  
+<h2>From Eagle to FlatCam</a>
+Just follow this <a href="http://flatcam.org/manual/eaglehowto.html" target="_blank">tutorial</a> to get the proper layers to port to FlatCam
 
-
+<h2>How to create GCodes</a>
+If you want to create the GCodes for each layer you have to follow the next tutorial <a href="https://www.youtube.com/watch?v=ojAuH7fgX58" target="_blank">FlatCam: Cómo crear GCode para fresar PCBs en Cyclone</a>
 
 <h3>References</h3>
 1. <a href="https://www.youtube.com/watch?v=ojAuH7fgX58" target="_blank">FlatCam: Cómo crear GCode para fresar PCBs en Cyclone</a>
