@@ -41,8 +41,11 @@ int main (int argc, char **argv) {
 }
 {% endhighlight %}
 
+The ::testing::InitGoogleTest method does what the name suggests—it initializes the framework and must be called before RUN_ALL_TESTS. RUN_ALL_TESTS must be called only once in the code because multiple calls to it conflict with some of the advanced features of the framework and, therefore, are not supported. Note that RUN_ALL_TESTS automatically detects and runs all the tests defined using the TEST macro. By default, the results are printed to standard output. Listing 4 shows the output.
+
 
 <h2>References</h2>
 1. <a href="https://www.youtube.com/watch?v=y9sGAF1k63o" target="_blank">Google Test: Setup googletest in Eclipse</a>
+2. <a href="https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html" target="_blank">Google Test: Setup googletest in Eclipse</a>
 
 
