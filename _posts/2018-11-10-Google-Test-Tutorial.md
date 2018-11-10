@@ -43,9 +43,14 @@ int main (int argc, char **argv) {
 
 The ::testing::InitGoogleTest method does what the name suggests—it initializes the framework and must be called before RUN_ALL_TESTS. RUN_ALL_TESTS must be called only once in the code because multiple calls to it conflict with some of the advanced features of the framework and, therefore, are not supported. Note that RUN_ALL_TESTS automatically detects and runs all the tests defined using the TEST macro. By default, the results are printed to standard output. Listing 4 shows the output.
 
+Right now you have to link your project to be tested to the test project. For this task right click on your test project and select "Properties" -> "C/C++ General" -> "Path and Symbosl" -> "Source Location" -> "Link Folder". In this windows check "Link folder in the file system" and add your file folder. 
+
+<center><img src="/images/LinkFolder.png" width="300" height="200"></center>
+
+
+After that your folder test wont be able to 
+
 
 <h2>References</h2>
 1. <a href="https://www.youtube.com/watch?v=y9sGAF1k63o" target="_blank">Google Test: Setup googletest in Eclipse</a>
 2. <a href="https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html" target="_blank">Google Test: Setup googletest in Eclipse</a>
-
-
