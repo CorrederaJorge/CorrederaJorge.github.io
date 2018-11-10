@@ -47,8 +47,11 @@ Right now you have to link your project to be tested to the test project. For th
 
 <center><img src="/images/LinkFolder.png" width="300" height="200"></center>
 
+After that your folder test wont be able to see the files you have included. In order to fix it right click on your test folder and click on "Properties" -> "C/C++ Build " -> "Settings" -> "Cross G++ Compiler" -> "Includes" -> "Includes paths (-l)" add the folder path where the files to be tested are.
 
-After that your folder test wont be able to 
+<h2> Additional settings </h2>
+
+Google test needs pthread to work properly. So add it clicking on your test library "Properties" -> "C/C++ Build " -> "Settings" -> "Cross G++ Linker" -> "Libraries" -> "Libraries (-l) " and add "pthread"
 
 
 <h2>References</h2>
