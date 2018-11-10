@@ -32,7 +32,7 @@ The next step is again right click over the googleTestLib folder in Eclipse and 
 
 Add a new folder where you will add all the tests. Just create a new file and type:
 
-{% highlight bash %}
+{% highlight C++ %}
 #include "gtest/gtest.h"
 
 int main (int argc, char **argv) {
