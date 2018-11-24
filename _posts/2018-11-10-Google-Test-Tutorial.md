@@ -1,5 +1,9 @@
 ---
 published: false
+layout: post
+description: Software test
+tags:
+  - 'GoogleTest, Software'
 ---
 <center><img src="/images/google-c-testing-framework-gtesk-300x200.jpg" width="300" height="200"></center>
 The aim of this tutorial is showing how to use <a href="https://github.com/google/googletest" target="_blank">GoogleTest</a> to test your own projects in <a href="https://www.eclipse.org/" target="_blank">Eclipse</a>.
