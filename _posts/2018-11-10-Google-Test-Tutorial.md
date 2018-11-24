@@ -72,7 +72,6 @@ Valgrind is a programming tool for memory debugging, memory leak detection, and 
 You can install just using:
 
 {% highlight bash %}
-#include "gtest/gtest.h"
 sudo apt-get install valgrind
 {% endhighlight %}
 
@@ -80,7 +79,6 @@ In order to use it type:
 
 {% highlight bash %}
 valgrind --leak-check=yes myprog
-}
 {% endhighlight %}
   
 
