@@ -58,6 +58,33 @@ After that your folder test wont be able to see the files you have included. In 
 Google test needs pthread to work properly. So add it clicking on your test library "Properties" -> "C/C++ Build " -> "Settings" -> "Cross G++ Linker" -> "Libraries" -> "Libraries (-l) " and add "pthread"
 
 
+<h2> Colorfull test </h2>
+
+In order to add colorfull test support go to "Help" -> "Install new software" -> "C/C++ Unit Test support". 
+
+After that create a new Runner using "Run As" -> "Run Configurations" -> "C/C++ Unit Test". Choose "Google Tests Runner" for "Tests Runner" in the "C/C++ Testing" tab. Choose your testing project executable in the "Main" tab
+Run it, and the "C/C++ Unit" view shows up after (rebuild and) execution.
+
+<h2> Additional tools Valgrind</h2>
+
+Valgrind is a programming tool for memory debugging, memory leak detection, and profiling. It was originally designed to be a free memory debugging tool for Linux on x86, but has since evolved to become a generic framework for creating dynamic analysis tools such as checkers and profilers. 
+
+You can install just using:
+
+{% highlight bash %}
+#include "gtest/gtest.h"
+sudo apt-get install valgrind
+{% endhighlight %}
+
+In order to use it type:
+
+{% highlight bash %}
+valgrind --leak-check=yes myprog
+}
+{% endhighlight %}
+  
+
 <h2>References</h2>
 1. <a href="https://www.youtube.com/watch?v=y9sGAF1k63o" target="_blank">Google Test: Setup googletest in Eclipse</a>
 2. <a href="https://www.ibm.com/developerworks/aix/library/au-googletestingframework.html" target="_blank">Google Test: Setup googletest in Eclipse</a>
+3. <a href="http://valgrind.org/docs/manual/quick-start.html" target="_blank">Valgrind quick start</a>
